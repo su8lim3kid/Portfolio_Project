@@ -8,6 +8,8 @@ import NoMatch from './components/NoMatch'
 import Projects from './components/Projects'
 import { Container, } from "semantic-ui-react"
 import styled from 'styled-components'
+import Icons from './components/Icons'
+
 
 
 
@@ -16,6 +18,8 @@ import styled from 'styled-components'
 const App = () => (
   <AppContainer>
   <Navbar />
+  <Icons />
+
 
   <Fragment>
    
@@ -46,10 +50,6 @@ main {
 background: #000000;
 width: 100vw;
   height: 100vh;
-
-
-
-
 
 `
 

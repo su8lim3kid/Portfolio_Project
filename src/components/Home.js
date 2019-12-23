@@ -5,6 +5,7 @@ import wings from './wings.png'
 
 
 
+
 class Home extends React.Component{
 
   
@@ -12,7 +13,7 @@ class Home extends React.Component{
   render() {
 
      return(
-      
+    
  
         <Container>
        
@@ -62,6 +63,8 @@ class Home extends React.Component{
 
 
         </Container>
+
+        
        
         
         

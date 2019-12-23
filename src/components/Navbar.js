@@ -50,9 +50,10 @@ const NavBar = () => (
   </Segment>
 )
 
+
 const styles = {
   active: {
-    color: '#537a0d',
+    color: '#008080',
     fontWeight: 'bold',
   }
 }

@@ -31,8 +31,10 @@ export default class MyForm extends React.Component {
         <label style={{ color: 'white' }}>Your Email Address:</label>
         <input type="email" name="email" />
         <br />
-        <label style={{ color: 'white' }}>Your Message:</label>
+        <label style={{ color: 'white' }}>Message:</label>
         <textarea rows="4" cols="50" name="message" ></textarea>
+        <br/>
+        <br/>
         {status === "SUCCESS" ? <p style={{ color: 'white' }}>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p style={{ color: 'white' }}>Ooops! There was an error.</p>}
       </form>
