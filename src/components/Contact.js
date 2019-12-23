@@ -17,16 +17,22 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <form
+      <form class="ui form"
         onSubmit={this.submitForm}
         action="https://formspree.io/xpzqdggj"
         method="POST"
       >
        <Header as="h1" textAlign="center" style={{ color: 'white' }}>Contact me</Header>
-        <label style={{ color: 'white' }}>Email Address:</label>
+      
+ 
+
+       <label style={{ color: 'white' }}>Your Name:</label>
+        <input type="text" name="name" />
+        <label style={{ color: 'white' }}>Your Email Address:</label>
         <input type="email" name="email" />
-        <label style={{ color: 'white' }}>Message:</label>
-        <input type="text" name="message" />
+        <br />
+        <label style={{ color: 'white' }}>Your Message:</label>
+        <textarea rows="4" cols="50" name="message" ></textarea>
         {status === "SUCCESS" ? <p style={{ color: 'white' }}>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p style={{ color: 'white' }}>Ooops! There was an error.</p>}
       </form>
