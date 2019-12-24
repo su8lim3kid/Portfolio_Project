@@ -1,31 +1,64 @@
 import React  from 'react'
-import { Icon,  } from 'semantic-ui-react'
-import { Link, } from 'react-router-dom';
+import { Image } from 'semantic-ui-react'
+import { Container, } from "semantic-ui-react"
+import github_logo from './Images/github_logo.png'
+import facebook from './Images/facebook.png'
+import linkdin from './Images/linkdin.png'
 
-function Icons(){
 
 
 
-  function sayLinkdin() {
-    alert('Linkdin!');
-  }
+const Icons = () =>(
 
+
+  <Container>
+
+    <Image
+    src={facebook}
+    as='a'
+    size='medium'
+    href="https://www.facebook.com/angel.alderete.374"
+    target='_blank'
+    style={{
+      height: '35px',
+      width: '35px',
+    }}
+    />
+    <br/>
+    <br/>
+   <Image
+    src={github_logo}
+    as='a'
+    size='medium'
+    href="https://github.com/su8lim3kid"
+    target='_blank'
+    style={{
+      height: '40px',
+      width: '40px',
+    }}
+    />
+    <br/>
+    <br/>
+     <Image
+    src={linkdin}
+    as='a'
+    size='medium'
+    href='http://google.com'
+    target='_blank'
  
-return(
-
-
-<>
-
-   <Link to="/https://github.com/su8lim3kid"> <Icon circular inverted color='teal' name='github '/></Link>
-   <Link to="/https://www.facebook.com/angel.alderete.374"> <Icon circular inverted color='teal' name='facebook official' /></Link>
-    <Link> <Icon circular inverted color='teal' name='linkedin' onClick={sayLinkdin}/></Link>
-
-   
-  
-</>
+    style={{
+      height: '35px',
+      width: '35px',
+    }}
+    />
+    </Container>
 
 
 )
-}
+
+
+
+
+
 
 export default Icons
