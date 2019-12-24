@@ -53,8 +53,9 @@ const NavBar = () => (
 
 const styles = {
   active: {
-    color: '#008080',
+    color: '#AEAE94',
     fontWeight: 'bold',
+    
   }
 }
 

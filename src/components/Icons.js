@@ -4,13 +4,14 @@ import { Container, } from "semantic-ui-react"
 import github_logo from './Images/github_logo.png'
 import facebook from './Images/facebook.png'
 import linkdin from './Images/linkdin.png'
+import styled from 'styled-components'
 
 
 
 
 const Icons = () =>(
 
-
+<IconContainer>
   <Container>
 
     <Image
@@ -52,9 +53,16 @@ const Icons = () =>(
     }}
     />
     </Container>
+    </IconContainer>
+
 
 
 )
+
+const IconContainer = styled.div `
+position: absolute;
+
+`
 
 
 

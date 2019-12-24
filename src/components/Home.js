@@ -40,8 +40,8 @@ class Home extends React.Component{
               }}>
               <Image
                 style={{
-                  height: '500px',
-                  width: '650px',
+                  height: '420px',
+                  width: '500px',
                 }}
               
             Image src={wings} alt="Wings" />
@@ -102,7 +102,7 @@ class Home extends React.Component{
                 justifyContent: 'center',
                 alignItems: 'center',
                 
-                color: 'black',
+                color: 'white',
               }}>
              Lobortis elementum nibh tellus molestie nunc. Eget dolor morbi non arcu risus quis. Vel facilisis volutpat est velit egestas dui id ornare arcu. Posuere ac ut consequat semper viverra. Risus sed vulputate odio ut. Adipiscing enim eu turpis egestas. Mauris ultrices eros in cursus turpis massa tincidunt dui. Ut porttitor leo a diam sollicitudin tempor id eu. Tincidunt ornare massa eget egestas. Nisl nunc mi ipsum faucibus vitae aliquet.
              <br />
@@ -152,7 +152,7 @@ class Home extends React.Component{
                 justifyContent: 'center',
                 alignItems: 'center',
                 
-                color: 'black',
+                color: 'white',
               }}>
          Enim facilisis gravida neque convallis a cras. Augue lacus viverra vitae congue. Ac ut consequat semper viverra nam. Eget lorem dolor sed viverra ipsum nunc. Elit duis tristique sollicitudin nibh. Nisl purus in mollis nunc sed id semper risus. Dignissim convallis aenean et tortor at risus viverra. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Tellus id interdum velit laoreet id donec ultrices tincidunt arcu. Massa tempor nec feugiat nisl pretium. Quam pellentesque nec nam aliquam. Fermentum dui faucibus in ornare quam viverra orci. Rhoncus est pellentesque elit ullamcorper.
          <br />

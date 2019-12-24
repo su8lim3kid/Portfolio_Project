@@ -50,6 +50,7 @@ main {
 background: #000000;
 width: 100vw;
   height: 100vh;
+  overflow: scroll;
 
 `
 
