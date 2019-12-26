@@ -1,9 +1,11 @@
 import React from "react"
 import { NavLink, } from "react-router-dom"
-import { Menu, Segment, Sticky} from 'semantic-ui-react'
+import { Menu, Segment, Sticky, } from 'semantic-ui-react'
 
 
 const Navbar  = () =>
+
+
 <Sticky>
   <Segment inverted>
       <Menu inverted pointing secondary >
@@ -47,9 +49,14 @@ const Navbar  = () =>
         }}>
       </div>
       </div>  
+  
         
     </Segment>
-  </Sticky>    
+    </Sticky>
+   
+   
+
+
 
   
 

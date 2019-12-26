@@ -10,8 +10,11 @@ import styled from 'styled-components'
 
 
 const Icons = () =>(
+  
 
 <IconContainer>
+
+
   <Container>
 
     <Image
@@ -61,6 +64,9 @@ const Icons = () =>(
 
 const IconContainer = styled.div `
 position: absolute;
+left: 0px;
+bottom: 0px;
+
 
 `
 
