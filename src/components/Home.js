@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Card, Image, } from 'semantic-ui-react'
 import wings from './Images/wings.png'
 import cloud from './Images/cloud.png'
-import hex from './Images/hex.png'
+import fire from './Images/fire.png'
 
 
 
@@ -18,19 +18,26 @@ class Home extends React.Component{
     
  
         <Container>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
        
             <Card.Header
               style={{
-                fontSize: "45px",
+                fontSize: "75px",
                 fontFamily: "Luminari, fantasy",
+                textDecoration:"underline overline dotted gray",
                 height: '40px',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                
+                position:'absolute, center',
                 color: 'white',
               }}>
-              Angel Alderete
+            Angel Alderete
             </Card.Header>
             <Card.Content
               style={{
@@ -67,7 +74,9 @@ class Home extends React.Component{
             <Card.Header
               style={{
                 fontSize: "45px",
-                fontFamily: "Luminari, fantasy",
+                fontFamily: "Snell Roundhand, cursive",
+                fontWeight: "500",
+                textDecoration: "underline",
                 height: '40px',
                 display: 'flex',
                 justifyContent: 'center',
@@ -75,7 +84,7 @@ class Home extends React.Component{
                 
                 color: 'white',
               }}>
-             Si Vis Pacem Para Bellum
+             More Shit Goes Here
             </Card.Header>
             <Card.Content
               style={{
@@ -117,7 +126,9 @@ class Home extends React.Component{
             <Card.Header
               style={{
                 fontSize: "45px",
-                fontFamily: "Luminari, fantasy",
+                fontFamily: "Snell Roundhand, cursive",
+                textDecoration: "underline",
+                fontWeight: "500",
                 height: '40px',
                 display: 'flex',
                 justifyContent: 'center',
@@ -125,7 +136,7 @@ class Home extends React.Component{
                 
                 color: 'white',
               }}>
-             Si Vis Pacem Para Bellum
+             Some More Awesome Shit Here
             </Card.Header>
             <Card.Content
               style={{
@@ -139,7 +150,7 @@ class Home extends React.Component{
                   width: '100vw',
                 }}
               
-            Image src={hex} alt="Hex" />
+            Image src={fire} alt="Fire" />
              </Card.Content>
              <br />
              <br />
