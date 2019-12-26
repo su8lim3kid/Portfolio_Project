@@ -63,7 +63,7 @@ const Navbar  = () =>
       
 const styles = {
   active: {
-    color: '#AEAE94',
+    color: '#11D9DC',
     fontWeight: 'bold',
   }
 }
