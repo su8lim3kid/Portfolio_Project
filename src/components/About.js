@@ -23,7 +23,12 @@ class About extends React.Component {
       <br/>
       <br/>
 
-    <Container as='h2' textAlign='justified' style={{color: "white"}}>
+    <Container as='h1'
+     textAlign='justified' 
+     style={{
+       fontFamily: "Jazz LET, fantasy",
+       color: "white"
+       }}>
       <b>A Bit About Me</b>
       <Divider />
       <p style={{
@@ -57,6 +62,7 @@ class About extends React.Component {
       <br/>
       <br/>
       <br/>
+      
       <Modal trigger={<Button>My Tool Box</Button>} closeIcon>
    
     <Modal.Header style={{
@@ -70,6 +76,7 @@ class About extends React.Component {
                 color: 'black',
               }}>Angel Alderete</Modal.Header>
     <Modal.Content>
+      <br/>
       
       <Modal.Description>
         <Header  style={{
@@ -82,10 +89,12 @@ class About extends React.Component {
                 position:'absolute, center',
                 color: 'black',
               }}>Tools I Work With</Header>
+
+             
         <Image src={Ruby} 
         alt="Ruby" 
         as='a'
-        size='medium'
+        size='large'
         href='https://www.ruby-lang.org/en/'
         target='_blank'
         />
@@ -175,6 +184,7 @@ class About extends React.Component {
     </Modal.Content>
    
   </Modal>
+  
 </>
     )
   }

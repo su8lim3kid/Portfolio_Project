@@ -13,7 +13,14 @@ import waterfall from './Images/waterfall.jpg'
   render() {
     return (
       <>
-          <Header textAlign='left' as="h1" style={{ color: "white"}}>My Projects</Header>
+      <br />
+      
+          <Header textAlign='left' 
+          as="h1" 
+          style={{
+            fontFamily: "Jazz LET, fantasy", 
+            color: "white"}}
+            >My Projects</Header>
           <Divider />
           <Divider />
       
@@ -26,7 +33,7 @@ import waterfall from './Images/waterfall.jpg'
               }}/>
           <Card.Content>
             <Card.Header>
-              Project Name
+              Project 1 Name
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
@@ -44,7 +51,7 @@ import waterfall from './Images/waterfall.jpg'
             }}/>
           <Card.Content>
             <Card.Header>
-              Project Name
+              Project 2 Name
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
@@ -62,7 +69,7 @@ import waterfall from './Images/waterfall.jpg'
             }} />
           <Card.Content>
             <Card.Header>
-              Project Name
+              Project 3 Name
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
@@ -80,7 +87,7 @@ import waterfall from './Images/waterfall.jpg'
             }} />
           <Card.Content>
             <Card.Header>
-              Project Name
+              Project 4 Name
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
@@ -98,7 +105,7 @@ import waterfall from './Images/waterfall.jpg'
             }}/>
           <Card.Content>
             <Card.Header>
-              Project Name
+              Project 5 Name
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
@@ -116,7 +123,7 @@ import waterfall from './Images/waterfall.jpg'
             }} />
           <Card.Content>
             <Card.Header>
-              Project Name
+              Project 6 Name
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
