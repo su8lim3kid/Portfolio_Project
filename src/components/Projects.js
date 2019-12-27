@@ -1,8 +1,142 @@
 import React from 'react'
-import { Header } from 'semantic-ui-react'
+import { Header, Card, Image, Divider} from 'semantic-ui-react'
+import fall from './Images/fall.jpeg'
+import unnamed from './Images/unnamed.jpg'
+import river from './Images/river.jpeg'
+import lake from './Images/lake.jpg'
+import magic from './Images/magic.jpeg'
+import waterfall from './Images/waterfall.jpg'
 
-const Projects = () => (
-  <Header as="h1" textAlign="center" style={{ color: 'white' }}>Projects Go Here Bruh</Header>
-)
+
+
+ class Projects extends React.Component {
+  render() {
+    return (
+      <>
+          <Header textAlign='left' as="h1" style={{ color: "white"}}>My Projects</Header>
+          <Divider />
+          <Divider />
+      
+<Card.Group>
+          <Card>
+            <Image src={fall}
+              style={{
+                height: '200px',
+                width: '300px',
+              }}/>
+          <Card.Content>
+            <Card.Header>
+              Project Name
+            </Card.Header>
+            </Card.Content>
+            <Card.Content extra >
+           
+              Project Description
+            
+              </Card.Content>
+          </Card>
+
+          <Card>
+            <Image src={lake} 
+            style={{
+              height: '200px',
+              width: '300px',
+            }}/>
+          <Card.Content>
+            <Card.Header>
+              Project Name
+            </Card.Header>
+            </Card.Content>
+            <Card.Content extra >
+           
+              Project Description
+            
+              </Card.Content>
+          </Card>
+
+          <Card>
+            <Image src={waterfall}
+            style={{
+              height: '200px',
+              width: '300px',
+            }} />
+          <Card.Content>
+            <Card.Header>
+              Project Name
+            </Card.Header>
+            </Card.Content>
+            <Card.Content extra >
+           
+              Project Description
+            
+              </Card.Content>
+          </Card>
+
+          <Card>
+            <Image src={magic}
+            style={{
+              height: '200px',
+              width: '300px',
+            }} />
+          <Card.Content>
+            <Card.Header>
+              Project Name
+            </Card.Header>
+            </Card.Content>
+            <Card.Content extra >
+           
+              Project Description
+            
+              </Card.Content>
+          </Card>
+
+          <Card>
+            <Image src={unnamed} 
+            style={{
+              height: '200px',
+              width: '300px',
+            }}/>
+          <Card.Content>
+            <Card.Header>
+              Project Name
+            </Card.Header>
+            </Card.Content>
+            <Card.Content extra >
+           
+              Project Description
+            
+              </Card.Content>
+          </Card>
+
+          <Card>
+            <Image src={river}
+            style={{
+              height: '200px',
+              width: '300px',
+            }} />
+          <Card.Content>
+            <Card.Header>
+              Project Name
+            </Card.Header>
+            </Card.Content>
+            <Card.Content extra >
+           
+              Project Description
+            
+              </Card.Content>
+          </Card>
+
+          </Card.Group>
+
+
+
+
+        
+      </>
+    )
+  }
+}
+
+
 
 export default Projects

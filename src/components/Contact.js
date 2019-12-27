@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import {Header,} from 'semantic-ui-react'
+import {Header, Divider} from 'semantic-ui-react'
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -21,6 +21,8 @@ export default class MyForm extends React.Component {
         method="POST"
       >
        <Header as="h1" textAlign="center" style={{ color: 'white' }}>Contact me</Header>
+       <Divider />
+       <Divider />
       
  
 
