@@ -16,6 +16,8 @@ import Icons from './components/Icons'
 
 
 const App = () => (
+  <div class="sixteen wide mobile eight wide tablet four wide computer column">
+
   <AppContainer>
   <Navbar />
   <Icons />
@@ -34,6 +36,7 @@ const App = () => (
     </Container>
   </Fragment>
   </AppContainer>
+  </div>
 );
 
 const AppContainer = styled.div `

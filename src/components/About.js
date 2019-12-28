@@ -27,11 +27,13 @@ class About extends React.Component {
 
     <Container as='h1'
      textAlign='justified' 
-     style={{
+     >
+      <Header style={{
        fontFamily: "Jazz LET, fantasy",
+       textShadow: "3px 3px #3299a8",
        color: "white"
-       }}>
-      <b>A Bit About Me</b>
+       
+       }}>A Bit About Me</Header>
       <Divider />
       <p style={{
                 fontSize: "20px",
@@ -67,6 +69,7 @@ class About extends React.Component {
       
       <Modal trigger={<Button>My Tool Box</Button>} closeIcon>
         <ModalContainer>
+        <div class="sixteen wide mobile eight wide tablet four wide computer column">
    
     <Modal.Header style={{
       fontSize: "25px",
@@ -79,6 +82,8 @@ class About extends React.Component {
       color: 'black',
     }}>Angel Alderete</Modal.Header>
     <Modal.Content>
+<Divider />
+      <br/>
       <br/>
       
       <Modal.Description>
@@ -93,6 +98,9 @@ class About extends React.Component {
                 position:'absolute, center',
                 color: 'black',
               }}>Tools I Work With</Header>
+              <Divider />
+              <br />
+              <br />
 
              
         <Image src={Ruby} 
@@ -186,7 +194,7 @@ class About extends React.Component {
 
       </Modal.Description>
     </Modal.Content>
-   
+   </div>
   </ModalContainer>
   </Modal>
   

@@ -20,7 +20,7 @@ export default class MyForm extends React.Component {
         action="https://formspree.io/xpzqdggj"
         method="POST"
       >
-       <Header as="h1" textAlign="center" style={{ color: 'white' }}>Contact me</Header>
+       <Header as="h1" textAlign="center" style={{ color: 'white', textShadow: "2px 2px #3299a8"}}>Contact me</Header>
        <Divider />
        <Divider />
       

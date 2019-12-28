@@ -16,7 +16,7 @@ class Home extends React.Component{
 
      return(
     
- 
+      <div class="sixteen wide mobile eight wide tablet four wide computer column">
         <Container>
           <br />
           <br />
@@ -29,7 +29,7 @@ class Home extends React.Component{
               style={{
                 fontSize: "75px",
                 fontFamily: "Luminari, fantasy",
-                textDecoration:"underline overline dotted gray",
+                textShadow: "2px 3px #3299a8",
                 height: '80px',
                 display: 'flex',
                 justifyContent: 'center',
@@ -43,7 +43,7 @@ class Home extends React.Component{
               style={{
                 fontSize: "75px",
                 fontFamily: "Luminari, fantasy",
-                textDecoration:"underline overline dotted gray",
+                textShadow: "2px 3px #3299a8",
                 height: '150px',
                 display: 'flex',
                 justifyContent: 'center',
@@ -194,7 +194,7 @@ class Home extends React.Component{
 
         
        
-        
+        </div>
         
 
       

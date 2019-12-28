@@ -19,7 +19,8 @@ import waterfall from './Images/waterfall.jpg'
           as="h1" 
           style={{
             fontFamily: "Jazz LET, fantasy", 
-            color: "white"}}
+            color: "white",
+            textShadow: "2px 2px #3299a8"}}
             >My Projects</Header>
           <Divider />
           <Divider />
