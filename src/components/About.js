@@ -10,6 +10,8 @@ import rails from "./Images/rails.png"
 import Ruby from "./Images/Ruby.png"
 import sass from "./Images/sass.png"
 import pry from "./Images/pry.png"
+import styled from 'styled-components'
+
 
 class About extends React.Component {
 
@@ -64,22 +66,24 @@ class About extends React.Component {
       <br/>
       
       <Modal trigger={<Button>My Tool Box</Button>} closeIcon>
+        <ModalContainer>
    
     <Modal.Header style={{
-                fontSize: "25px",
-                fontFamily: "Snell Roundhand, cursive",
-                height: '20px',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                position:'absolute, center',
-                color: 'black',
-              }}>Angel Alderete</Modal.Header>
+      fontSize: "25px",
+      fontFamily: "Snell Roundhand, cursive",
+      height: '20px',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      position:'absolute, center',
+      color: 'black',
+    }}>Angel Alderete</Modal.Header>
     <Modal.Content>
       <br/>
       
       <Modal.Description>
         <Header  style={{
+               
                 fontSize: "40px",
                 fontFamily: "Snell Roundhand, cursive",
                 height: '20px',
@@ -183,12 +187,18 @@ class About extends React.Component {
       </Modal.Description>
     </Modal.Content>
    
+  </ModalContainer>
   </Modal>
   
 </>
     )
   }
 }
+
+const ModalContainer = styled.div `
+background: #a8a8a8;
+padding: 220px;
+`
 
 export default About
 

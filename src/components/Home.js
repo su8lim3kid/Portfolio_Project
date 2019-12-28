@@ -30,14 +30,28 @@ class Home extends React.Component{
                 fontSize: "75px",
                 fontFamily: "Luminari, fantasy",
                 textDecoration:"underline overline dotted gray",
-                height: '40px',
+                height: '80px',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
                 position:'absolute, center',
                 color: 'white',
               }}>
-            Angel Alderete
+            Angel
+            </Card.Header>
+            <Card.Header
+              style={{
+                fontSize: "75px",
+                fontFamily: "Luminari, fantasy",
+                textDecoration:"underline overline dotted gray",
+                height: '150px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                position:'absolute, center',
+                color: 'white',
+              }}>
+           Alderete
             </Card.Header>
             <Card.Content
               style={{
