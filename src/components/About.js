@@ -65,11 +65,8 @@ class About extends React.Component {
    
       <br/>
       <br/>
-      <br/>
-      
       <Modal trigger={<Button>My Tool Box</Button>} closeIcon>
-        <ModalContainer>
-        <div class="sixteen wide mobile eight wide tablet four wide computer column">
+      <Mc>
    
     <Modal.Header style={{
       fontSize: "25px",
@@ -88,27 +85,28 @@ class About extends React.Component {
       
       <Modal.Description>
         <Header  style={{
-               
-                fontSize: "40px",
-                fontFamily: "Snell Roundhand, cursive",
-                height: '20px',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                position:'absolute, center',
-                color: 'black',
-              }}>Tools I Work With</Header>
+          
+          fontSize: "40px",
+          fontFamily: "Snell Roundhand, cursive",
+          height: '20px',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          position:'absolute, center',
+          color: 'black',
+        }}>Tools I Work With</Header>
               <Divider />
               <br />
               <br />
 
-             
+              <ModalContainer >
         <Image src={Ruby} 
         alt="Ruby" 
         as='a'
-        size='large'
+        size='medium'
         href='https://www.ruby-lang.org/en/'
         target='_blank'
+        
         />
         <br/>
         <br/>
@@ -192,10 +190,11 @@ class About extends React.Component {
         target='_blank'
         />
 
+  </ModalContainer>
       </Modal.Description>
     </Modal.Content>
-   </div>
-  </ModalContainer>
+  
+  </Mc>
   </Modal>
   
 </>
@@ -204,8 +203,19 @@ class About extends React.Component {
 }
 
 const ModalContainer = styled.div `
-background: #a8a8a8;
-padding: 220px;
+
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 800px;
+  height:600px;
+  align-content: space-evenly;
+  justify-content: center;
+ 
+`
+
+const Mc = styled.div`
+background: grey;
 `
 
 export default About
