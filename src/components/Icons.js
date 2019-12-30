@@ -47,7 +47,7 @@ const Icons = () =>(
     src={linkdin}
     as='a'
     size='medium'
-    href='http://google.com'
+    href='https://www.linkedin.com/in/angel-alderete-5b241519a'
     target='_blank'
  
     style={{
