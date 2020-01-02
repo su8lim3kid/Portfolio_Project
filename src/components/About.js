@@ -195,8 +195,8 @@ const ModalContainer = styled.div `
 
     display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  width: 800px;
+  flex-direction: row;
+  width: 1000px;
   height:600px;
   align-content: space-evenly;
   justify-content: center;
@@ -204,7 +204,7 @@ const ModalContainer = styled.div `
 `
 
 const Mc = styled.div`
-background: grey;
+background: #4568a1;
 `
 
 export default About
