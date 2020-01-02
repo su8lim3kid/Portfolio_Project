@@ -34,7 +34,7 @@ import waterfall from './Images/waterfall.jpg'
               }}/>
           <Card.Content>
             <Card.Header>
-              Project 1 Name
+              Future Project 1
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
@@ -52,7 +52,7 @@ import waterfall from './Images/waterfall.jpg'
             }}/>
           <Card.Content>
             <Card.Header>
-              Project 2 Name
+            Future Project 2
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
@@ -70,7 +70,7 @@ import waterfall from './Images/waterfall.jpg'
             }} />
           <Card.Content>
             <Card.Header>
-              Project 3 Name
+            Future Project 3
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
@@ -88,7 +88,7 @@ import waterfall from './Images/waterfall.jpg'
             }} />
           <Card.Content>
             <Card.Header>
-              Project 4 Name
+            Future Project 4 
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
@@ -106,7 +106,7 @@ import waterfall from './Images/waterfall.jpg'
             }}/>
           <Card.Content>
             <Card.Header>
-              Project 5 Name
+            Future Project 5 
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
@@ -124,7 +124,7 @@ import waterfall from './Images/waterfall.jpg'
             }} />
           <Card.Content>
             <Card.Header>
-              Project 6 Name
+            Future Project 6
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
