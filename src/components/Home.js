@@ -2,7 +2,6 @@ import React from 'react'
 import { Container, Card, Image, } from 'semantic-ui-react'
 import wings from './Images/wings.png'
 import cloud from './Images/cloud.png'
-import fire from './Images/fire.png'
 
 
 
@@ -149,57 +148,7 @@ class Home extends React.Component{
             <br />
             <br />
             <br />
-            <br />
-
-            <Card.Header
-              style={{
-                fontSize: "45px",
-                fontFamily: "Snell Roundhand, cursive",
-                textDecoration: "underline",
-                fontWeight: "500",
-                height: '40px',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                
-                color: 'white',
-              }}>
-             Some More Awesome Shit Here
-            </Card.Header>
-            <Card.Content
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-              }}>
-              <Image
-                style={{
-                  height: '400px',
-                  width: '100vw',
-                }}
-              
-            Image src={fire} alt="Fire" />
-             </Card.Content>
-             <br />
-             <br />
-             <Card.Content extra
-              style={{
-                lineHeight: "150%",
-                fontSize: "30px",
-                fontFamily: "Georgia, serif",
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                
-                color: 'white',
-              }}>
-         Enim facilisis gravida neque convallis a cras. Augue lacus viverra vitae congue. Ac ut consequat semper viverra nam. Eget lorem dolor sed viverra ipsum nunc. Elit duis tristique sollicitudin nibh. Nisl purus in mollis nunc sed id semper risus. Dignissim convallis aenean et tortor at risus viverra. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Tellus id interdum velit laoreet id donec ultrices tincidunt arcu. Massa tempor nec feugiat nisl pretium. Quam pellentesque nec nam aliquam. Fermentum dui faucibus in ornare quam viverra orci. Rhoncus est pellentesque elit ullamcorper.
-         <br />
-         <br />
-            </Card.Content>
-
-
-             
+            <br />       
       </Container>
      
         

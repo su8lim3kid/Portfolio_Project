@@ -1,11 +1,8 @@
 import React from 'react'
 import { Header, Card, Image, Divider} from 'semantic-ui-react'
-import fall from './Images/fall.jpeg'
-import unnamed from './Images/unnamed.jpg'
-import river from './Images/river.jpeg'
-import lake from './Images/lake.jpg'
-import magic from './Images/magic.jpeg'
-import waterfall from './Images/waterfall.jpg'
+import dpl from './Images/dpl_logo.png'
+import bb from './Images/bblogo.jpeg'
+import mslogo from './Images/ms_logo.png'
 
 
 
@@ -26,110 +23,53 @@ import waterfall from './Images/waterfall.jpg'
           <Divider />
       
 <Card.Group>
-          <Card>
-            <Image src={fall}
+          <Card href='https://github.com/devpointlabs/devpoint-store' target='_blank'>
+            <Image src={dpl}
               style={{
                 height: '200px',
                 width: '300px',
               }}/>
           <Card.Content>
             <Card.Header>
-              Future Project 1
+              DevPoint Labs Online Store
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
-           
-              Project Description
-            
+           This is an e-commerce project i participated in during my time at Devpoint Labs cohort!
               </Card.Content>
           </Card>
 
-          <Card>
-            <Image src={lake} 
+          <Card href='https://github.com/su8lim3kid/Myspace_user_auth' target='_blank'>
+            <Image src={mslogo} 
             style={{
               height: '200px',
               width: '300px',
             }}/>
           <Card.Content>
             <Card.Header>
-            Future Project 2
+            MySpace Clone
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
-           
-              Project Description
+          Mysapce clone project with Authentication
             
               </Card.Content>
           </Card>
 
           <Card>
-            <Image src={waterfall}
+            <Image src={bb}
             style={{
               height: '200px',
               width: '300px',
             }} />
           <Card.Content>
             <Card.Header>
-            Future Project 3
+            BillBoard Project
             </Card.Header>
             </Card.Content>
             <Card.Content extra >
            
-              Project Description
-            
-              </Card.Content>
-          </Card>
-
-          <Card>
-            <Image src={magic}
-            style={{
-              height: '200px',
-              width: '300px',
-            }} />
-          <Card.Content>
-            <Card.Header>
-            Future Project 4 
-            </Card.Header>
-            </Card.Content>
-            <Card.Content extra >
-           
-              Project Description
-            
-              </Card.Content>
-          </Card>
-
-          <Card>
-            <Image src={unnamed} 
-            style={{
-              height: '200px',
-              width: '300px',
-            }}/>
-          <Card.Content>
-            <Card.Header>
-            Future Project 5 
-            </Card.Header>
-            </Card.Content>
-            <Card.Content extra >
-           
-              Project Description
-            
-              </Card.Content>
-          </Card>
-
-          <Card>
-            <Image src={river}
-            style={{
-              height: '200px',
-              width: '300px',
-            }} />
-          <Card.Content>
-            <Card.Header>
-            Future Project 6
-            </Card.Header>
-            </Card.Content>
-            <Card.Content extra >
-           
-              Project Description
+              quick project i did with full crud actions
             
               </Card.Content>
           </Card>

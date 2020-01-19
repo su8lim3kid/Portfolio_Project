@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header, Button, Image, Modal, Container, Divider} from 'semantic-ui-react'
+import {Header, Button, Image, Modal, Container, Divider, Icon} from 'semantic-ui-react'
 import css3 from "./Images/css3.png"
 import githubcat from "./Images/githubcat.png"
 import html5 from "./Images/html5.png"
@@ -44,8 +44,8 @@ class About extends React.Component {
                 position:'absolute, center',
                 color: 'white',
               }}>
-       I enjoy Skiing, Hiking, and playing in league sports with friends in my free time.
-       below you will find some of the Tools i Work With.
+       I enjoy skiing, hiking, and playing in league sports with friends in my free time.
+       below you will find some of the tools I work with along with a link to resume.
       </p>
       <Divider />
     
@@ -54,7 +54,17 @@ class About extends React.Component {
    
       <br/>
       <br/>
-      <Modal trigger={<Button>My Tool Box</Button>} closeIcon>
+      <Modal 
+      trigger={
+      <Button animated
+      color='teal'>
+        <Button.Content visible>Tool Box</Button.Content>
+        <Button.Content hidden>
+          <Icon name='wrench' size='large' />
+        </Button.Content>
+      </Button>
+    } 
+      closeIcon>
       <Mc>
    
     <Modal.Header style={{
@@ -185,6 +195,19 @@ class About extends React.Component {
   
   </Mc>
   </Modal>
+
+      <Button animated
+      href='https://docs.google.com/document/d/1URxLjOea3LhsaEtw0OWjtGSpfuFejUl5Cg5wDWlFUy0/edit?usp=sharing'
+      target='_blank'
+      color='blue'
+      >
+      
+        <Button.Content visible
+        >My Resume</Button.Content>
+        <Button.Content hidden>
+          <Icon name='file code' size='large'/>
+        </Button.Content>
+      </Button>
   
 </>
     )
