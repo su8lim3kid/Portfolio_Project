@@ -1,0 +1,397 @@
+/* #shadow1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 60px 60px   #000000;
+  bottom: 0; 
+} */
+
+#myImages{
+  
+    width:  100%;
+    height: 800px;
+ 
+}
+#maincon{
+  width:100%;
+}
+
+#myName{
+    position: static;
+    color: black;
+    font-family: 'open-sans';
+    font-size: 4em;
+    text-align: center;
+  
+}
+
+/* #mainImg{
+  box-shadow: 35px 25px 5px 0px rgba(0,0,0,0.75);
+  animation: fadein 3s;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+} */
+
+#slcImg{
+  transition: transform .5s;
+  animation: fadein 8s;
+
+}
+#slcImg:hover{
+  transform: scale(5.0);
+}
+
+#slcText{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3em ;
+  font-family: cursive;
+
+}
+
+.intro{
+  font-family: 'open-sans';
+  font-size: 2em;
+  line-height: initial;
+ animation: fadein 6s; 
+
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+#gh{
+font-family: 'open-sans';
+font-size: 3em;
+position: static;
+left: 0px;
+ 
+}
+
+#ghImg{
+  transition: transform 1.2s;
+
+}
+#ghImg:hover{
+  transform:rotate(360deg) scale(2.0);
+
+}
+
+#li{
+  font-family: 'open-sans';
+  font-size: 3em;
+  position: static;
+  left: 0px;
+   
+  }
+
+  #liLogo{
+    transition: transform .7s;
+    
+  }
+
+  #liLogo:hover{
+    transform:rotate(360deg) scale(2.0) ;
+  
+  }
+
+
+  body {
+    font-size: 62.5%;
+    font-style: Arial;
+  }
+  
+  .animation-box {
+    width: 100%;
+    height: 100vh;
+    
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .animation-container {
+    width: 1000rem;
+    height: 30rem;
+  }
+  
+  @keyframes topFadeOut {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      top: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes bottomFadeOut {
+    0% {
+      position: absolute;
+      bottom: -5rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      bottom: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+    
+  }
+  
+  @keyframes topFadeOutVertical {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      top: 45%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes rightFadeInOut {
+    0% {
+      position: absolute;
+      right: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      right: 10rem;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      right: 10rem;
+    }
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0%;
+    }
+  }
+  
+  .first-text {
+    font-size: 4.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-duration: 5s;
+    color: white;
+    animation-iteration-count: infinite;
+  }
+  
+  .second-text {
+    font-size: 3.4rem;
+    position: absolute;
+    top: 8.5rem;
+    opacity: 0;
+    animation-name: rightFadeInOut;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    color: #ccc;
+    animation-iteration-count: infinite;
+  }
+  
+  .third-text {
+    transform: rotate(-90deg);
+    font-size: 2rem;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    opacity: 0;
+    animation-name: topFadeOutVertical;
+    animation-delay: 7.5s;
+    animation-duration: 6s;
+    color: #A3DDF0;
+    white-space: nowrap;
+    animation-iteration-count: infinite;
+  }
+  
+  .fourth-text {
+    font-size: 3.4rem;
+    position: absolute;
+    top: 10.5rem;
+    left: 10%;
+    opacity: 0;
+    color: #F0A3BE;
+    animation-name: fadeInOut;
+    animation-delay: 3s;
+    animation-duration: 3s;
+  
+  }
+  
+  .fifth-text {
+    font-size: 5rem;
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    opacity: 0;
+    color: #F0EBA3;
+    animation-name: bottomFadeOut;
+    animation-delay: 10s;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+  }
+
+  .six-text {
+    font-size: 5rem;
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    opacity: 0;
+    color: #F0EBA3;
+    animation-name: bottomFadeOut;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .seven-text {
+    font-size: 3.4rem;
+    position: absolute;
+    top: 10.5rem;
+    left: 10%;
+    opacity: 0;
+    color: #F0A3BE;
+    animation-name: fadeInOut;
+    animation-delay: 8.5s;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+  }
+
+  .seven-text {
+    transform: rotate(-90deg);
+    font-size: 2rem;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    opacity: 0;
+    animation-name: topFadeOutVertical;
+    animation-delay: 7.5s;
+    animation-duration: 6s;
+    color: #A3DDF0;
+    white-space: nowrap;
+    animation-iteration-count: infinite;
+  }
+
+  .eight-text {
+    font-size: 3.4rem;
+    position: absolute;
+    top: 8.5rem;
+    opacity: 0;
+    animation-name: rightFadeInOut;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    color: #ccc;
+    animation-iteration-count: infinite;
+  }
+
+  .nine-text {
+    font-size: 4.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-duration: 5s;
+    color: white;
+    animation-iteration-count: infinite;
+  }
+
+  .ten-text {
+    transform: rotate(-90deg);
+    font-size: 2rem;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    opacity: 0;
+    animation-name: topFadeOutVertical;
+    animation-delay: 1;
+    animation-duration: 3s;
+    color: #A3DDF0;
+    white-space: nowrap;
+    animation-iteration-count: infinite;
+  }
+  .eleven-text {
+    font-size: 3.4rem;
+    position: absolute;
+    top: 10.5rem;
+    left: 10%;
+    opacity: 0;
+    color: #F0A3BE;
+    animation-name: fadeInOut;
+    animation-delay: 10s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  .twelve-text {
+    font-size: 5rem;
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    opacity: 0;
+    color: #F0EBA3;
+    animation-name: bottomFadeOut;
+    animation-delay:10s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  .thirteen-text {
+    font-size: 4.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-duration: 8s;
+    color: white;
+    animation-iteration-count: infinite;
+  }
+
+
+
+  

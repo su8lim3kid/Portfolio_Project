@@ -56,7 +56,7 @@ import mslogo from './Images/ms_logo.png'
               </Card.Content>
           </Card>
 
-          <Card>
+          <Card href='https://github.com/su8lim3kid/Billboard' target='_blank'>
             <Image src={bb}
             style={{
               height: '200px',

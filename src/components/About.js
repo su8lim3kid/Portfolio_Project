@@ -13,10 +13,15 @@ import pry from "./Images/pry.png"
 import styled from 'styled-components'
 
 
+
+
+
 class About extends React.Component {
 
 
   render() {
+
+
     return (
       
       <>
@@ -30,8 +35,8 @@ class About extends React.Component {
      >
       <Header style={{
        fontFamily: "Jazz LET, fantasy",
-       textShadow: "3px 3px #3299a8",
-       color: "white"
+       textShadow: "2px 3px #3299a8",
+       color: "black"
        
        }}>A Bit About Me</Header>
       <Divider />
@@ -42,7 +47,7 @@ class About extends React.Component {
                 justifyContent: 'center',
                 alignItems: 'center',
                 position:'absolute, center',
-                color: 'white',
+                color: 'black',
               }}>
        I enjoy skiing, hiking, and playing in league sports with friends in my free time.
        below you will find some of the tools I work with along with a link to resume.
@@ -197,7 +202,7 @@ class About extends React.Component {
   </Modal>
 
       <Button animated
-      href='https://docs.google.com/document/d/1URxLjOea3LhsaEtw0OWjtGSpfuFejUl5Cg5wDWlFUy0/edit?usp=sharing'
+      href='https://drive.google.com/file/d/1WfPWXWhIUj5sB76ekMQn0ZYha67qkoDZ/view?usp=sharing'
       target='_blank'
       color='blue'
       >
@@ -209,7 +214,11 @@ class About extends React.Component {
         </Button.Content>
       </Button>
   
-</>
+      
+    
+  </>
+
+
     )
   }
 }

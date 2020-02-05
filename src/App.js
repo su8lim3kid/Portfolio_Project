@@ -8,7 +8,7 @@ import NoMatch from './components/NoMatch'
 import Projects from './components/Projects'
 import { Container, } from "semantic-ui-react"
 import styled from 'styled-components'
-import Icons from './components/Icons'
+// import Icons from './components/Icons'
 
 
 
@@ -16,11 +16,12 @@ import Icons from './components/Icons'
 
 
 const App = () => (
+  
   <div class="sixteen wide mobile eight wide tablet four wide computer column">
 
   <AppContainer>
   <Navbar />
-  <Icons />
+  {/* <Icons /> */}
 
 
   <Fragment>
@@ -50,7 +51,6 @@ main {
   position: relative;
 }
 
-background: #000000;
 width: 100vw;
   height: 100vh;
   overflow: scroll;
